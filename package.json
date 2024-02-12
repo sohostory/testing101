@@ -1,0 +1,16 @@
+{
+  "name": "testing101",
+  "version": "1.0.0",
+  "main": "script2.js",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "jest": "jest --watch *.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

@@ -1,7 +1,7 @@
 const URL = "https://pokeapi.co/api/v2/pokemon/";
 
 const getPokemonPromise = (fetch) => {
-  fetch(URL)
+  return fetch(URL)
     .then((response) => response.json())
     .then((data) => {
       return {
